@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".last">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profil Mahasiswa "
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAMA: EKA WULANDARI "
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UMUR: 21 TAHUN "
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM:STE202202761 "
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+</LinearLayout>
